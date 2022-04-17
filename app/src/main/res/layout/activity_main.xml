@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4">
+
+    <TableRow>
+        <TextView android:id="@+id/espacio" android:text="@string/textoInicio" android:layout_span="4" style="@style/TextoPrincipal"></TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/buttonC" android:layout_span="2" android:text="@string/buttonClear"></Button>
+        <Button android:id="@+id/buttonPorcentaje" android:text="@string/buttonPorcentaje"></Button>
+        <Button android:id="@+id/buttonDivide" android:text="@string/buttonDivide" style="@style/ButtonText"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/buttonSiete" android:text="@string/buttonSiete"></Button>
+        <Button android:id="@+id/buttonOcho" android:text="@string/buttonOcho"></Button>
+        <Button android:id="@+id/buttonNueve" android:text="@string/buttonNueve"></Button>
+        <Button android:id="@+id/buttonMultiplica" android:text="@string/buttonMultiplica" style="@style/ButtonText"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/buttonCuatro" android:text="@string/buttonCuatro"></Button>
+        <Button android:id="@+id/buttonCinco" android:text="@string/buttonCinco"></Button>
+        <Button android:id="@+id/buttonSeis" android:text="@string/buttonSeis"></Button>
+        <Button android:id="@+id/buttonResta" android:text="@string/buttonResta" style="@style/ButtonText"></Button>
+    </TableRow>
+
+    <TableRow>
+    <Button android:id="@+id/buttonUno" android:text="@string/buttonUno"></Button>
+    <Button android:id="@+id/buttonDos" android:text="@string/buttonDos"></Button>
+    <Button android:id="@+id/buttonTres" android:text="@string/buttonTres"></Button>
+    <Button android:id="@+id/buttonSuma" android:text="@string/buttonSuma" style="@style/ButtonText"></Button>
+    </TableRow>
+
+    <TableRow>
+    <Button android:id="@+id/buttonCero" android:layout_span="2" android:text="@string/buttonCero"></Button>
+    <Button android:id="@+id/buttonPunto" android:text="@string/buttonPunto"></Button>
+    <Button android:id="@+id/buttonIgual" android:text="@string/buttonIgual" style="@style/ButtonText"></Button>
+</TableRow>
+
+
+</TableLayout>
